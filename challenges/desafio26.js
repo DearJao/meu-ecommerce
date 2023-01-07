@@ -1,4 +1,3 @@
-
 db.produtos.updateMany({
   valoresNutricionais: { $elemMatch: {
     tipo: { $eq: "sódio" },
